@@ -1,0 +1,90 @@
+=========================
+1) http://git-scm.com/download/win
+=========================
+
+
+=========================
+2) Git Config
+=========================
+
+o Set your username for every repository
+git config --global user.name dangquangminh-vn
+
+o Set your email (same email as your Github account)
+git config --global user.email danagquangminh.vn@gmail.com
+
+o Check Git config
+git config --list
+
+
+=========================
+3) 10 GIT Commands
+=========================
+3.1)
+o Tạo local Repo
+>git init
+
+// Init = Initialize /v/: Khởi chạy or Khởi tạo
+// Repository /n/: Nơi lưu trữ source code của project
+
+o Link remote repository (Github) to Local repository (Your PC)
+>git remote add origin [Your Github link]
+
+
+3.2)
+o Clone (Tải) a Remote Repo on GitHub to Local PC
+>git clone[GitHub_Repo_URL]
+
+
+3.3)
+o Add changes to Staging Area
+>git add [filename]
+
+o Add all file in working directory
+>git add .
+
+
+3.4)
+o Snapshots (ảnh chụp) the file in  preparation for versioning
+>git commit -m "descriptive message"
+
+o change description
+>git commit --amend -m "amend descriptive message"
+
+3.5)
+o Uploads all local branch commmits to GitHub
+>git push origin [branch-name]
+
+3.6)
+o See the status of working directory and staging area
+>git status
+
+
+3.7)
+o View the changes you made relative t0 staging area for the next commit
+>git diff [stage_index_1] [stage_index_2]
+
+
+3.8)
+o Lists version history for the current branch
+>git log -<n>
+
+o Hiển thị mỗi commit trên một dòng
+>git log--oneline
+
+
+3.9)
+o Remove the specified file from the staging area, but leave the working directory unchanged
+>git reset <file>
+
+o General Git Reset Command
+>git reset [--soft | --mixed | --hard | --merge | --keep]<commit>
+
+
+3.10)
+o Synchronize your local repository  with the remote repository on Github.com
+>git fetch
+
+>git pull
+
+
