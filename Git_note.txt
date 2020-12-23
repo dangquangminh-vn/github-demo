@@ -33,7 +33,7 @@ o Link remote repository (Github) to Local repository (Your PC)
 
 3.2)
 o Clone (Tải) a Remote Repo on GitHub to Local PC
->git clone[GitHub_Repo_URL]
+>git clone [GitHub_Repo_URL]
 
 
 3.3)
