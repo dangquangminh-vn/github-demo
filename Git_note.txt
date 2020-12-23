@@ -87,4 +87,25 @@ o Synchronize your local repository  with the remote repository on Github.com
 
 >git pull
 
+3.11)
+o switch branch
+>git checkout [brand]
+vd: >git checkout master
 
+3.12)
+o cherry-pick dùng để bưng các thay đổi trong một commit trên một nhánh nào đó áp dụng về nhánh hiện tại
+>git cherry-pick [staging_index]
+vd: >git cherry-pick f23adf
+o Lúc này nhánh master sẽ áp dụng các thanh đổi trong commit f23adf về nhánh master
+
+3.13)
+o Một tính năng trong Git khá giống với cherry-pick đó là merge branch.
+o Khi muốn merge các thanh đổi có trong nhánh feature-dev về nhánh master chúng ta sẽ làm các bước như sau.
+o Đầu tiên checkout về nhánh master:
+>git checkout master
+
+o Và sau đó thực hiện việc merge nhánh feature-dev về nhánh master:
+>git merge [brand_name]
+vd: >git merge feature-dev
+o Khác biệt khi bạn thực hiện động tác merge branch như trên đó là Git sẽ áp dụng các thanh đổi của commit mới nhất
+  trong nhánh feature-dev về nhánh master. Nghĩa là Git sẽ lấy các thanh đổi trong commit C1 và áp dụng về nhánh master.
