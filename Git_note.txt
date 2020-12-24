@@ -100,6 +100,9 @@ o switch branch
 >git checkout [brand]
 vd: >git checkout master
 
+o Cố tình chuyển nhánh (có thể mất sao lưu dữ liệu ở nhánh hiện tại) -force
+>git checkout [brand] -f
+
 
 3.12)
 o cherry-pick dùng để bưng các thay đổi trong một commit trên một nhánh nào đó áp dụng về nhánh hiện tại
@@ -124,3 +127,14 @@ o Khác biệt khi bạn thực hiện động tác merge branch như trên đó
 3.14) Git clone thông qua SSH
 o ssh-keygen -t rsa
 
+3.15) Lưu tạm khi chuyển nhánh
+>git stash save
+
+o check version sao lưu
+>git stash list
+
+o Quay lai version sao lưu
+>git stash apply stash@{[index]}
+
+o Xóa sao lưu
+>git stash drop stash@{[index]}
