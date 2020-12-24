@@ -61,6 +61,9 @@ o change description
 o Uploads all local branch commmits to GitHub
 >git push origin [branch-name]
 
+o Đẩy 1 nhánh hiện tại lên master (remote repository)
+>git push -u origin master
+
 
 3.6)
 o See the status of working directory and staging area
@@ -138,3 +141,33 @@ o Quay lai version sao lưu
 
 o Xóa sao lưu
 >git stash drop stash@{[index]}
+
+3.15) Git Tag
+o Tạo 1 Tag
+>git tag -a <tên tag> -m "<tag comment>"
+
+o Hiển thị danh sách tag
+>git tag
+
+o Kiểm tra một tag cụ thể
+>git show <tên tag>
+
+o Push tag lên remote
+>git push origin <tag name>
+
+o Push tất cả tag lên remote
+>git push origin --tags
+
+o Xóa tag
+>git tag --delete <tag name>
+
+o Xóa tag trên remote
+>git tag --delete origin <tag name>
+
+o Gắn tag cho 1 commit (đã add vào history)
+>git tag -a <tag name> -m '<comment>' <commit hash>
+ex: git tag -a v1.2 -m 'version 1.2' 9fceb02
+
+o Tạo 1 nhánh mới từ commit được gắn tag
+> git checkout -b <tên nhánh> <tên tag của commit cần copy về nhánh mới>
+
