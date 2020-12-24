@@ -30,6 +30,8 @@ o Tạo local Repo
 o Link remote repository (Github) to Local repository (Your PC)
 >git remote add origin [Your Github link]
 
+o Thay đổi origin url
+>git remote set-url origin https://github.com/repo.git
 
 3.2)
 o Clone (Tải) a Remote Repo on GitHub to Local PC
@@ -51,9 +53,11 @@ o Snapshots (ảnh chụp) the file in  preparation for versioning
 o change description
 >git commit --amend -m "amend descriptive message"
 
+
 3.5)
 o Uploads all local branch commmits to GitHub
 >git push origin [branch-name]
+
 
 3.6)
 o See the status of working directory and staging area
@@ -87,16 +91,19 @@ o Synchronize your local repository  with the remote repository on Github.com
 
 >git pull
 
+
 3.11)
 o switch branch
 >git checkout [brand]
 vd: >git checkout master
+
 
 3.12)
 o cherry-pick dùng để bưng các thay đổi trong một commit trên một nhánh nào đó áp dụng về nhánh hiện tại
 >git cherry-pick [staging_index]
 vd: >git cherry-pick f23adf
 o Lúc này nhánh master sẽ áp dụng các thanh đổi trong commit f23adf về nhánh master
+
 
 3.13)
 o Một tính năng trong Git khá giống với cherry-pick đó là merge branch.
@@ -109,3 +116,8 @@ o Và sau đó thực hiện việc merge nhánh feature-dev về nhánh master:
 vd: >git merge feature-dev
 o Khác biệt khi bạn thực hiện động tác merge branch như trên đó là Git sẽ áp dụng các thanh đổi của commit mới nhất
   trong nhánh feature-dev về nhánh master. Nghĩa là Git sẽ lấy các thanh đổi trong commit C1 và áp dụng về nhánh master.
+
+
+3.14) Git clone thông qua SSH
+o ssh-keygen -t rsa
+
