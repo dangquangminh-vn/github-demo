@@ -1,0 +1,20 @@
+=========================
+1. Chuẩn bị
+=========================
+
+o Hiểu cách sử dụng tool Poderosa để remote vào server Website/Jenkins
+o Hiểu cách sử dụng tool Cyberduck
+o 1 server Git (Github/Gitlab/Bitbutket)
+o 1 server Jenkins (phục vụ việc tích hợp / deploy code CI/CD)
+o 1 server website (PHP/Java/ASP.NET, ...)
+o Môi trường Developer làm việc dưới local
+o Cài Github trên Jenkins server
+
+o Cấu hình webhooks cho Github: Nhiệm vụ thông báo cho Jenkins có code mới -> Thao tác trên Github
+o Cấu hình Github cho Jenkins server: Thao tác trên Jenkins server
+
+
+
+
+
+
