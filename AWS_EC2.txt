@@ -1,0 +1,70 @@
+================================
+Thuật ngữ AWS (Amazon Web Services)
+================================
+
+o AMI: Amazon Machine Image (AMI) là một loại đặc biệt của chương trình Virtual Appliance được sử dụng để khởi tạo hệ điều hành máy chủ ảo đám mây EC2 Instance. ... Launch permissions : quyền kiểm soát tài khoản AWS nào được phép sử dụng AMI để khởi tạo máy chủ ảo Instance.
+o EC2: Amazon Elastic Compute Cloud (Amazon EC2) là một cơ sở hạ tầng điện toán đám mây được cung cấp bởi Amazon Web Services (AWS) giúp cung cấp tài nguyên máy tính ảo hoá theo yêu cầu.
+
+================================
+1) CÁCH TẠO AWS EC2
+================================
+
+1.1) Tạo tài khoản AWS
+1.2) Đăng nhập AWS -> Vào EC2 -> Tạo server Linux thành công
+1.3 Cài phần mềm Poderosa / Putty để truy suất vào máy ảo EC2
+
+================================
+2) CÂU LỆNH THAO TÁC TRÊN LINUX
+================================
+
+=============
+Mẹo vặt
+=============
+o Bấm phím i (Insert) để chuyển qua chế độ cho phép overwrite file
+o Bấm Esc + : (Shift :) để chuyển qua chế độ thực thi lệnh cho file edit
+    + w -> write (save file)
+    + q! -> quit (thoát khỏi cửa sổ soạn thảo)
+    + wq! -> write + quit
+
+
+
+=============
+2.1) Tạo 1 file
+=============
+>vi helloworld.txt
+
+=============
+2.2) Xem danh sách files
+=============
+>ls
+
+=============
+2.3) Xem nội dung files (only view)
+=============
+>less <ten file>
+o Nhấn phím q để thoát
+
+=============
+2.4) Edit file
+=============
+>vi <ten file>
+
+=============
+2.5) Tìm kiếm trong file
+=============
+o Nhấn tổ hợp phím Esc /
+
+=============
+2.6) Nhảy dòng trong file
+=============
+o Nhấn tổ hợp phím Esc : <số dòng> Enter
+
+
+
+
+
+
+
+
+
+
