@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=JbimtwkN40s&list=PLjCpH2Qpki-uxHO2BRzUoIQ-D-EqdKDLv
+
+1) Download docker install
+
+2) Install/Enable 2 features trên windows
+o hyper-v: support máy ảo
+o Windows PowerShellL: support chạy lệnh docker
+
+
+============================================
+CÁC CÂU LỆNH THAO TÁC TRÊN PowerShell
+============================================
+1) docker --version
+2) docker-compose --help
+
