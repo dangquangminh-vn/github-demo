@@ -1,11 +1,4 @@
 ================================
-Thuật ngữ AWS (Amazon Web Services)
-================================
-
-o AMI: Amazon Machine Image (AMI) là một loại đặc biệt của chương trình Virtual Appliance được sử dụng để khởi tạo hệ điều hành máy chủ ảo đám mây EC2 Instance. ... Launch permissions : quyền kiểm soát tài khoản AWS nào được phép sử dụng AMI để khởi tạo máy chủ ảo Instance.
-o EC2: Amazon Elastic Compute Cloud (Amazon EC2) là một cơ sở hạ tầng điện toán đám mây được cung cấp bởi Amazon Web Services (AWS) giúp cung cấp tài nguyên máy tính ảo hoá theo yêu cầu.
-
-================================
 1) CÁCH TẠO AWS EC2
 ================================
 
@@ -29,23 +22,27 @@ o Bấm Esc + : (Shift :) để chuyển qua chế độ thực thi lệnh cho f
 
 
 =============
-2.1) Tạo 1 file
+2.1) ECHO >> Tạo 1 file
 =============
->vi helloworld.txt
+>echo helloworld.txt
 
 =============
-2.2) Xem danh sách files
+2.2) LS >> Xem danh sách files
 =============
 >ls
 
+o Xem theo dạng list
+>ls -la
+
+
 =============
-2.3) Xem nội dung files (only view)
+2.3) LESS >> Xem nội dung files (only view)
 =============
 >less <ten file>
 o Nhấn phím q để thoát
 
 =============
-2.4) Edit file
+2.4) VI >> Edit file
 =============
 >vi <ten file>
 
@@ -59,12 +56,53 @@ o Nhấn tổ hợp phím Esc /
 =============
 o Nhấn tổ hợp phím Esc : <số dòng> Enter
 
-...
+=============
+2.7) cd >> Chuyển thư mục
+=============
+o Vào thư mục
+>cd <ten thu muc>
+
+o Ra 1 cấp thư mục
+>cd ..
+
+o Ra thư mục gốc
+>cd /
+
+o Xem vị trí đường dẫn thư mục
+>pwd
+
+=============
+2.8) mkdir >> Tạo thư mục
+=============
+>mkdir <ten thu muc>
+
+o Tạo đường dẫn thư mục
+>mkdir -p a/b/c
 
 
+=============
+2.9) rm -Rf >> Xóa file / thư mục (bao gồm tất cả files con)
+=============
+*Rf: toàn bộ file và thư mục
 
+>rm -Rf <ten thu muc>/
+vd:
+>rm -Rf hanoi/
+>rm hello.txt
 
+=============
+2.10) cp >> copy file
+=============
+>cp hanoi/hello.txt tphcm/
 
+o Copy tất cả file và thư mục
+> cp -Rf hanoi/* tphcm/
+
+=============
+2.11) history >> xem lịch sử 
+=============
+o Xem từ từ
+>history | less
 
 
 

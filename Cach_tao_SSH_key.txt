@@ -1,6 +1,10 @@
 =========================
 CÁCH TẠO SSH KEY
 =========================
-
+1) Vào Gitbase thư mục cần clone
+>ssh-keygen -t rsa
+2) Copy publish key cấu hình vào Github / Bitbucket
+3) Vào Gitbase thư mục cần clone
+>git clone <url ssh>
 
 

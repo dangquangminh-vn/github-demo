@@ -1,0 +1,7 @@
+================================
+Thuật ngữ AWS (Amazon Web Services)
+================================
+o DNS: DNS là viết tắt của cụm từ Domain Name System, mang ý nghĩa đầy đủ là hệ thống phân giải tên miền
+o AMI: Amazon Machine Image (AMI) là một loại đặc biệt của chương trình Virtual Appliance được sử dụng để khởi tạo hệ điều hành máy chủ ảo đám mây EC2 Instance. ... Launch permissions : quyền kiểm soát tài khoản AWS nào được phép sử dụng AMI để khởi tạo máy chủ ảo Instance.
+o EC2: Amazon Elastic Compute Cloud (Amazon EC2) là một cơ sở hạ tầng điện toán đám mây được cung cấp bởi Amazon Web Services (AWS) giúp cung cấp tài nguyên máy tính ảo hoá theo yêu cầu.
+
