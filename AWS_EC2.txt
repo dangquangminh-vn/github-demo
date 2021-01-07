@@ -59,7 +59,7 @@ o Nhấn tổ hợp phím Esc /
 =============
 o Nhấn tổ hợp phím Esc : <số dòng> Enter
 
-
+...
 
 
 
