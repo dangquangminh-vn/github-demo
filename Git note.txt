@@ -106,6 +106,15 @@ vd: >git checkout master
 o Cố tình chuyển nhánh (có thể mất sao lưu dữ liệu ở nhánh hiện tại) -force
 >git checkout [brand] -f
 
+o Xóa branch
+>git branch -d <branchname>
+
+o Thay đổi tên branch
+>git branch -m <oldbranch> <newbranch>
+
+o Merge branch
+>git merge <branch>
+
 
 3.12)
 o cherry-pick dùng để bưng các thay đổi trong một commit trên một nhánh nào đó áp dụng về nhánh hiện tại
@@ -172,30 +181,4 @@ ex: git tag -a v1.2 -m 'version 1.2' 9fceb02
 
 o Tạo 1 nhánh mới từ commit được gắn tag
 > git checkout -b <tên nhánh> <tên tag của commit cần copy về nhánh mới>
-
-
-=========================
-4) Thao tác với thư mục dùng command line
-=========================
-
-4.1) Tạo thư mục
->mkdir <ten_thu_muc>
-
-4.2) Xóa thư mục
->rm -Rf <ten_thu_muc/>
-
-
-4.3) Tạo file
-
-
-4.4) Edit file
-
-
-4.5) Điều hướng
-o Vào 1 thư mục
->cd <ten_thu_muc/>
-
-o Ra 1 cấp thư mục
->cd ..
-
 
