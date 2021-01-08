@@ -1,0 +1,11 @@
+=========================
+
+=========================
+
+I have four branches in my git repository, which is managed using GitHub:
+Production
+Staging
+Master
+[person's name]-development
+
+
