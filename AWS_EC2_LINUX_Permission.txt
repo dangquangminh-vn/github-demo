@@ -1,10 +1,21 @@
-================================
-Permission
-================================
+=========================
+1. Ý nghĩa các mã quyền trên server
+=========================
+
+=========================
+2. Cấp quyền user (Permission user)
+=========================
 
 ==============
-1) Cấp quyền Full control (root permission)
+2.1) Cấp quyền Full control (root permission)
 ==============
 >sudo su -
+
+
+
+
+
+
+
 
 

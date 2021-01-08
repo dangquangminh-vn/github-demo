@@ -20,7 +20,6 @@ o Bấm Esc + : (Shift :) để chuyển qua chế độ thực thi lệnh cho f
     + wq! -> write + quit
 
 
-
 =============
 2.1) ECHO >> Tạo 1 file
 =============
