@@ -106,6 +106,15 @@ vd: >git checkout master
 o Cố tình chuyển nhánh (có thể mất sao lưu dữ liệu ở nhánh hiện tại) -force
 >git checkout [brand] -f
 
+o Xem trạng thái branch
+>git branch
+
+o Tạo branch
+>git branch <branchname>
+
+o Tạo branch và tự động chuyển nhánh
+>git checkout -b <branchname>
+
 o Xóa branch
 >git branch -d <branchname>
 
