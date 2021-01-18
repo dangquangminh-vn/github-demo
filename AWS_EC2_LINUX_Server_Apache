@@ -1,0 +1,85 @@
+Bài 6: Tạo web server Apache trên AWS EC2 Linux
+
+=========================
+1. Thư mục default của web
+=========================
+cd /var/www/html
+
+=========================
+2. Các bước cơ bản
+=========================
+1. Setup LINUX Server (Drcom Server / AWS EC2)
+2. Cấu hình DNS (đã có tên miền Domain)
+3. Mở firewall port 80 trên (Drcom Server / AWS EC2)
+o Vào AWS EC2 server -> Chọn group Wizard -> Mục Inbound, Edit -> Add port HTTP 80 everywhere -> Save
+4. Cấu hình tên miền (Vitual host) lên Server
+o Tạo thư mục lưu trữ web
+o Quyền default của EC2 là User root, Group root
+o Apache có User apache, Group apache -> Change thư mục web trên EC2 sang quyền của Apache
+chown -Rf :apache <ten thuc muc web>/
+o Cấu hình tên miền
+vi /etc/httpd/conf/httpd.conf
+Copy thông tin bên dưới
+
+{VirtualHost *:80}
+    ServerAdmin info@coderhanoi.com
+    DocumentRoot /var/www/html/tinhocthatladongian
+    ServerName tinhocthatladongian.coderhanoi.com
+    {Directory "/var/www/html/tinhocthatladongian"}      
+   Order deny,allow
+           Allow from all
+           AllowOverride All
+          Require all granted
+   {/Directory}
+{/VirtualHost}
+
+5. Khởi động lại Web Server
+o service httpd restart
+
+6. Dùng WinSCP để copy source lên Server
+o Protocal "SCP"
+o DNS -> Port 22
+o Advanced -> SSH "Authentication" -> Private key
+o Save
+o Kết nối EC2 -> vào Apache copy source
+Lưu ý: add user vào group có quyền thao tác file
+
+
+=========================
+Cài Server Apache cho AWS EC2
+=========================
+o yum install httpd -y
+o service httpd start
+(Default port của Server Apache là port 80
+ Default port của AWS EC2 là port 22
+)
+
+Lưu ý:
+o Cấp quyền root
+sudo su -
+
+=========================
+Câu lệnh kiểm tra mạng
+=========================
+o Kiểm tra kết nối DNS vs ip server
+Vào CMD -> nslookup tenmien
+
+o Kiểm tra kết nối port localhost
+telnet localhost 80
+
+Lưu ý:
+o Cài tập lệnh telnet
+yum install telnet
+
+
+
+
+
+
+
+
+
+
+
+
+

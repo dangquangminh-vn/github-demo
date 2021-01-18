@@ -12,6 +12,26 @@
 >sudo su -
 
 
+=========================
+3. Kiểm tra quyền
+=========================
+ls --la
+
+
+=========================
+4. Thao tác với GROUP
+=========================
+o Tạo Group
+groupadd ketoan
+
+o Thêm user vào Group
+usermod a -G <groupname> <username>
+vd: usermod a -G ketoan minh
+
+o Kiểm tra xem user đã nằm trong group hay chưa
+id minh
+
+
 
 
 

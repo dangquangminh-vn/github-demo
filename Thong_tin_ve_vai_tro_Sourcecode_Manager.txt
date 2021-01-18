@@ -16,7 +16,7 @@ có thể quá, nhưng mà ko phải như tech pm mà support như a.@Khanh
 =========================
 I) Trình bày chọn 1 quy trình GIT cho 1 dự án cụ thể:
 - Có form đề nghị add vào chi phí dự án nếu chọn quản lý SERVER để deploy GIT trên AWS S3?
-- Dự án nào thì Deploy GIT trên Server LOCAL / DRCOM / AWS S3?
+- Dự án nào thì Deploy GIT trên Server LOCAL / DRCOM / AWS EC2 Linux?
 - Giải pháp quản lý GIT trên từ môi trường SERVER bên trên?
 
 II) Cách làm việc với Agency/Vendor (Frame/TTV/S3/SmartOSC/Freelancer)
