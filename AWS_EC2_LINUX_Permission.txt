@@ -1,35 +1,101 @@
 =========================
 1. Ý nghĩa các mã quyền trên server
 =========================
+o Kiểm tra quyền
+ls --la
+
+ls : xem danh sách file/thu muc tại đường dẫn hiện hành
+ls <ten thu muc>: xem danh sách file/thu muc trong thư mục chỉ định
+
+vd:
+drwxrwx--- 3 root ketoan 19 Jan 16:01:02 ketoan-data
+-rw-r--r-- 1 root root   19 Jan 16:03:04 hello.txt
+
+o Thứ tự phân quyền gồm 3 nhóm
+User/Group/Other (Public user)
+d: thư mục
+r: read permission
+w: write permission
+x: execute permission
+-: no permission
+
+o BẢNG PHÂN QUYỀN
+id      Permissions             Symbol
+0       No Permission           ---
+1       Execute                 --x
+2       write                   -w-
+3       Execute + Write         -wx
+4       Read                    r--
+5       Read + Execute          r-x
+6       Read + Write            rw-
+7       Read + Write + Execute  rwx
+
+
+==============
+1.1) Lệnh set quyền cho file và folder
+==============
+chmod [quyền] [tên file hoặc thư mục]
+vd: chmod -Rf 777 ketoan
+
+* -Rf: change full tất cả bao gồm thư mục con
+
+==============
+1.2) Change quyền cho file và folder
+==============
+chown -Rf root:ketoan ketoan-data
+hoặc
+chown -Rf :ketoan ketoan-data
+(change quyền group -> cho phép group 'ketoan' được quyền truy cập vào thư mục ketoan-data)
+
+
 
 =========================
 2. Cấp quyền user (Permission user)
 =========================
 
 ==============
-2.1) Cấp quyền Full control (root permission)
+2.1) Truy cập quyền Full control (root permission)
 ==============
->sudo su -
+sudo su -
+
+==============
+2.2) Tạo user
+==============
+useradd minh
+
+==============
+2.3) Tạo mật khẩu cho user
+==============
+passwd minh
+
+==============
+2.4) Truy cập server bằng user mới
+==============
+o Tạo 1 connect mới dùng tool Poderosa
+
+==============
+2.5) Xóa user
+==============
+userdel minh
 
 
 =========================
-3. Kiểm tra quyền
-=========================
-ls --la
-
-
-=========================
-4. Thao tác với GROUP
+3. Thao tác với GROUP
 =========================
 o Tạo Group
 groupadd ketoan
 
 o Thêm user vào Group
-usermod a -G <groupname> <username>
-vd: usermod a -G ketoan minh
+usermod -a -G <groupname> <username>
+vd: usermod -a -G ketoan minh
 
 o Kiểm tra xem user đã nằm trong group hay chưa
 id minh
+
+
+
+
+
 
 
 

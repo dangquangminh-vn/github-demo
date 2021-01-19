@@ -8,3 +8,27 @@ CÁCH TẠO SSH KEY
 >git clone <url ssh>
 
 
+=========================
+CÁCH CẤU HÌNH SSH ĐỂ BẤT KỲ USER NÀO CŨNG CÓ THỂ LOGIN VÀO SERVER
+=========================
+o Truy cập Server với quyền systemadmin
+o vi /etc/ssh/sshd_config
+o Tìm kiếm word "password" (Nhấn tổ hợp phím Esc /)
+o Tại mục "PasswordAuthentication no" -> Thay "no" thành "yes"
+o Edit -> nhấn i
+o Lưu file (Esc :) -> wq
+o Restart server
+service sshd restart
+
+
+
+
+
+
+
+
+
+
+
+
+
