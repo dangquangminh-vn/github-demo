@@ -1,11 +1,56 @@
 =========================
-
+BRANCH
 =========================
-
 I have four branches in my git repository, which is managed using GitHub:
 Production
 Staging
 Master
 [person's name]-development
+
+
+=========================
+Organization
+=========================
+o One Organization has many resources (pool resources)
+o One Organization has many Repositories
+o One Organization has many Teams
+o One Organization has many Projects
+
+Setting:
+o /settings/billing: nâng cấp và xem  thống kê dung lượng sử dụng Git của Organization
+o /settings/member_privileges: Set quyền cho member_privileges *
+o /settings/audit-log: Xem log
+o /settings/reminders: Liên kết Slack để nhận bất kỳ thông báo tức thời
+o /topics: Xem danh sách Repositories của Organization
+o /settings/repository-defaults:
+   + Set default branch cho Repo
+   + Tạo Label
+o /settings/projects: Set quyền cho Project *
+o /settings/actions:
+   + Set quyền thực hiện lệnh (Actions) cho Repository *
+   + Enable/Disable lệnh Fork cho Respository *
+o /settings/user_blocks: Block user *
+
+
+=========================
+Organization > Members
+=========================
+o One member included 0, one, many Organizations
+o One member joined in 0, one, many Teams
+o One member access to 0, one, many Teams
+
+
+=========================
+Organization > Teams
+=========================
+o Only owners and team maintainers can create child teams
+o One Team have 0, one, many Members
+
+=========================
+Organization > Projects
+=========================
+
+
+
 
 

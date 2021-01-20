@@ -1,0 +1,8 @@
+Git                         Emails                              Git account                  Git Password       Browser
+Github/Bitbucket            dangquangminh.vn@gmail.com          danagquangminh-vn            dq*                Edge
+Github                      m.dangdrca@gmail.com                dangquangminh-fork           dq*                Coccoc
+Github                      dangquangminh.vn@yahoo.com          dangquangminh-dev1           dq*                Firefox
+
+
+
+
