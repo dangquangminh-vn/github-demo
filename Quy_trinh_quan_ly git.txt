@@ -1,4 +1,17 @@
 =========================
+WORKFLOWS cho 1 PROJECT
+=========================
+1) Đăng nhập host account
+2) Tạo tổ chức
+3) Tạo team dự án
+4) Tạo Repository cho dự án
+5) Vào Repository -> Add Team cho Repo
+6) Add Member vào Team
+7) Config permissions cho Organization
+8) Config permissions cho Team
+9) Config permissions cho Repository
+
+=========================
 BRANCH
 =========================
 I have four branches in my git repository, which is managed using GitHub:
@@ -12,7 +25,7 @@ Master
 Organization
 =========================
 o One Organization has many resources (pool resources)
-o One Organization has many Repositories
+o One Organization has many Repositories *
 o One Organization has many Teams
 o One Organization has many Projects
 
@@ -45,6 +58,14 @@ Organization > Teams
 =========================
 o Only owners and team maintainers can create child teams
 o One Team have 0, one, many Members
+
+
+
+=========================
+Organization > Teams > Repositories
+=========================
+o /[Repo name]/settings/access: Add/Exit a repo for a team
+
 
 =========================
 Organization > Projects
