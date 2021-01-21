@@ -88,7 +88,7 @@ o Remove the specified file from the staging area, but leave the working directo
 >git reset <file>
 
 o General Git Reset Command
->git reset [--soft | --mixed | --hard | --merge | --keep]<commit>
+>git reset [--soft | --mixed | --hard | --merge | --keep] <commit-hash của brand muốn quay lại>
 
 
 3.10)
@@ -190,4 +190,14 @@ ex: git tag -a v1.2 -m 'version 1.2' 9fceb02
 
 o Tạo 1 nhánh mới từ commit được gắn tag
 > git checkout -b <tên nhánh> <tên tag của commit cần copy về nhánh mới>
+
+3.17) Git Archive
+git archive --format=zip HEAD `git diff HEAD^ HEAD --name-only` > ~/Desktop/enfaweb_release_2021_01_11.zip
+zip những file thay đổi, theo cấu trúc source 
+thành 1 file abc.zip ở lần commit sau cùng 
+
+
+
+
+
 

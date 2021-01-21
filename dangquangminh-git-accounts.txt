@@ -1,8 +1,6 @@
-Git                         Emails                              Git account                  Git Password       Browser
-Github/Bitbucket            dangquangminh.vn@gmail.com          danagquangminh-vn            dq*                Edge
-Github                      m.dangdrca@gmail.com                dangquangminh-fork           dq*                Coccoc
-Github                      dangquangminh.vn@yahoo.com          dangquangminh-dev1           dq*                Firefox
-
-
-
+Git                         Emails                              Git account                  Git Password       Browser             SSH
+Github/Bitbucket            dangquangminh.vn@gmail.com          danagquangminh-vn            dq*                Edge                git@github.com:dangquangminh-vn-ORG/Repository_Demo_1.git
+Github                      m.dangdrca@gmail.com                dangquangminh-fork           dq*                Coccoc              git@github.com:dangquangminh-vn-ORG/Repository_Demo_1.git
+Github                      dangquangminh.vn@yahoo.com          dangquangminh-dev1           dq*                Firefox             git@github.com:dangquangminh-vn-ORG/Repository_Demo_1.git
+Github                      minh.dangquang@drcomgroup.com       dangquangminh-drcom          Drcom!11           Chrome              git@github.com:dangquangminh-vn-ORG/Repository_Demo_1.git
 
