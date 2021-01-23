@@ -1,3 +1,12 @@
+Refer:
+https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch
+https://wiki.matbao.net/github-la-gi-cach-chia-se-ma-nguon-tai-code-de-dang-tren-github/
+
+Use paid account: Github Team pack (price: $4 per user/month). I think Team is the best option for git account
+   Because:
+	o Why do not choose Free pack -> I don’t want to choose something for free because you know the free things is not the best that we are always expectation.
+
+
 =========================
 1) http://git-scm.com/download/win
 =========================
