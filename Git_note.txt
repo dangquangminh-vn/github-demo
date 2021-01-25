@@ -1,3 +1,14 @@
+Refer:
+https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch
+https://wiki.matbao.net/github-la-gi-cach-chia-se-ma-nguon-tai-code-de-dang-tren-github/
+https://maychuviet.vn/may-chu-la-gi-server-la-gi/
+
+
+Use paid account: Github Team pack (price: $4 per user/month). I think Team is the best option for git account
+   Because:
+	o Why do not choose Free pack -> I don’t want to choose something for free because you know the free things is not the best that we are always expectation.
+
+
 =========================
 1) http://git-scm.com/download/win
 =========================
@@ -88,7 +99,7 @@ o Remove the specified file from the staging area, but leave the working directo
 >git reset <file>
 
 o General Git Reset Command
->git reset [--soft | --mixed | --hard | --merge | --keep]<commit>
+>git reset [--soft | --mixed | --hard | --merge | --keep] <commit-hash của brand muốn quay lại>
 
 
 3.10)
@@ -190,4 +201,14 @@ ex: git tag -a v1.2 -m 'version 1.2' 9fceb02
 
 o Tạo 1 nhánh mới từ commit được gắn tag
 > git checkout -b <tên nhánh> <tên tag của commit cần copy về nhánh mới>
+
+3.17) Git Archive
+git archive --format=zip HEAD `git diff HEAD^ HEAD --name-only` > ~/Desktop/enfaweb_release_2021_01_11.zip
+zip những file thay đổi, theo cấu trúc source 
+thành 1 file abc.zip ở lần commit sau cùng 
+
+
+
+
+
 

@@ -5,11 +5,12 @@ WORKFLOWS cho 1 PROJECT
 2) Tạo tổ chức
 3) Tạo team dự án
 4) Tạo Repository cho dự án
-5) Vào Repository -> Add Team cho Repo
-6) Add Member vào Team
-7) Config permissions cho Organization
-8) Config permissions cho Team
-9) Config permissions cho Repository
+5) Thay đổi brand "main" thành "master", tạo thêm các nhánh chính "staging", "develop"
+6) Vào Repository -> Add Team cho Repo
+7) Add Member vào Team
+8) Config permissions cho Organization
+9) Config permissions cho Team
+10) Config permissions cho Repository
 
 
 
