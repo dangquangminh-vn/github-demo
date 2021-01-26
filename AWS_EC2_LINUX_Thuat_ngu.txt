@@ -1,3 +1,5 @@
+https://calculator.aws/#/
+
 ================================
 Thuật ngữ AWS (Amazon Web Services)
 ================================

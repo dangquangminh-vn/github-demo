@@ -1,0 +1,23 @@
+1/ What/how do we do it now? Add a description of the situation
+2/ What are our current problems / potential risks across the company? What are our bigger problems / risks?
+3/ Use MAKER folder not PUBLIC and discuss internally to organize it according to your needs.
+4/ How about PULSAR / GOOGLE CHAT integration?
+5/ How about Docker / Kubernetes and in general, server image deployment?
+6/ How about CI/CD process, such as Jenkins or those provided in Github/AWS?
+7/ How do we manage other internal tools (uploader, IPA compilation, OTA provisioning)
+8/ What is the process for code QA?
+9/ How to manage the server / image configuration?
+10/ Do you plan to use a code quality automated audit / tester to help monitor / control code quality?
+11/ How do you manage tickets / code deployment / documentation?
+12/ How to manage design files (PSDs, AI,s InDesign, Marvel, Sketch, Figma) and link that to relevant code?
+13/ How to manage documentation (such as user stories) and link that to features?
+14/ How to use CAMDOS properly and keep folder structure and content it in sync with project information?
+15/ What is there already a dev stack process to follow (from customer like BI w/ ODS or partner process with TTV or S3)?
+
+This is about DEV STACK
+
+I forgot to give you the link I showed you as well: http://www.opendevstack.org/
+GIT is only one component of that.
+
+
+
