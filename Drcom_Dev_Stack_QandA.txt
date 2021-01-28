@@ -19,5 +19,8 @@ This is about DEV STACK
 I forgot to give you the link I showed you as well: http://www.opendevstack.org/
 GIT is only one component of that.
 
+SIMAC = Situation + Idea + Mechanism + Advantages + Conclusion
+SIG SIXMA - DMAIC process
+
 
 
